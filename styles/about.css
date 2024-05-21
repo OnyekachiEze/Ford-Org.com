@@ -1,0 +1,322 @@
+/* about div */
+
+.about{
+    max-width: 100%;
+    background-color:  rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 7rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    gap: 2.5rem;
+}
+
+.about-img img{
+    max-width: 100%;
+    /* min-width: 50%; */
+    /* height: 35rem; */
+    border: none;
+    /* box-shadow: 0 4px 10px rgba(30, 0, 255, 0.769); */
+    border-radius: 2rem;
+}
+
+.about-com{
+    width: 40%;
+    padding: 1rem;
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.769);
+}
+
+.about-com section{
+    border-top: 1px solid rgb(255, 255, 255);
+    padding-top: 2rem;
+}
+
+.about-com section:first-child{
+    border: none;
+}
+
+.section-1{
+    margin-bottom: 2rem;
+}
+
+.section-1 button{
+    background-color: rgba(255, 255, 255, 0.409);
+    color: #000000;
+    padding: 0.1rem 2rem;
+    border-radius: 3rem;
+    min-width: 100%;
+    text-shadow: 1px 1px 5px blue;
+    box-shadow: 0 4px 10px rgb(59, 58, 58);
+    font-size: 1rem;
+    border: none;
+}
+
+.section-1 button span{
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.section-1 button span p{
+    max-width: inherit;
+    font-weight: 600;
+}
+
+.section-1 button span i{
+    font-size: 10px;
+}
+
+.section-1 h1{
+    max-width: 100%;
+    font-size: 2.5rem;
+}
+
+
+.section-1 b{
+    color: blue;
+}
+
+.about-info{
+    background-color: #a1a1a1;
+    border-left: 5px solid rgb(104, 26, 200);
+    padding-left: 0.9rem;
+}
+
+.img-link{
+    display: flex;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    gap: 7rem;
+}
+
+.img-link div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.img-link div img{
+    box-shadow: 0 4px 10px rgba(30, 0, 255, 0.769);
+    width: 3rem;
+}
+
+.img-link-2{
+    margin-right: 7rem;
+}
+
+.section-3{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.section-3 button{
+    background-image: linear-gradient(to right, rgb(84, 46, 84) 5%, rgb(34, 34, 154) 40%);
+    color: #ffffff;
+    width: 10rem;
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    box-shadow: 0 4px 10px rgb(0,0,0,1);
+    cursor: pointer;
+    border: none;
+}
+
+.section-3 button span{
+    display: inline-flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.section-3 button span a{
+    color: #fff;
+}
+
+.section-3-tele{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.section-3-tele i{
+    background-color: rgba(255, 255, 255, 0.712);
+    color: #320ac1;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 50%;
+}
+
+.tele-2{
+    margin-top: -0.5rem;
+}
+
+.section-3-tele sub{
+    color: #a1a1a1;
+    font-size: 15px;
+}
+
+.section-3-tele p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width:756px) {
+    .about{
+        /* max-width: 100%; */
+        background-color:  rgb(0, 0, 0);
+        justify-content: center;
+        align-items: center;
+        display: block;
+        padding: 2rem;
+        padding-top: 3rem;
+    }
+    
+    .about-img img{
+        max-width: 100%;
+    }
+    
+    .about-com{
+        background-color: #a1a1a1;
+        color: #fff;
+        border-radius: 1rem;
+        width: 100%;
+        padding: 0.5rem;
+        box-shadow: 0 4px 10px rgba(255, 255, 255, 0.769);
+    }
+    
+    .about-com section{
+        border-top: 1px solid rgb(10, 1, 1);
+        padding-top: 1rem;
+    }
+    
+    .about-com section:first-child{
+        border: none;
+    }
+    
+    .section-1 button{
+        background-color: rgba(255, 255, 255, 0.715);
+        color: #000000;
+        padding: 0.1rem 2rem;
+        border-radius: 1.5rem;
+        text-shadow: 1px 1px 5px blue;
+        box-shadow: 0 4px 10px rgb(59, 58, 58);
+        font-size: 20px;
+        border: none;
+    }
+    
+    .section-1 button span{
+        display: inline-flex;
+        align-items: center;
+        gap: 0.3rem;
+    }
+    
+    .section-1 button span p{
+        max-width: inherit;
+        font-weight: 600;
+    }
+    
+    .section-1 button span i{
+        font-size: 10px;
+    }
+    
+    .section-1 h1{
+        max-width: 100%;
+        color: #000;
+        font-size: 2.3rem;
+        font-weight: 900;
+    }
+    
+    
+    .section-1 b{
+        font-size: 2.5rem;
+        color: blue;
+    }
+    
+    .about-info{
+        color: antiquewhite;
+        font-size: 20px;
+        border-left: 5px solid rgb(104, 26, 200);
+        padding-left: 0.9rem;
+    }
+    
+    .img-link{
+        max-width: 100%;
+        /* background-color: #320ac1; */
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+        padding-top: 5rem;
+        gap: 5rem;
+ 
+    }
+    
+    .img-link div img{
+        box-shadow: 0 4px 10px rgba(30, 0, 255, 0.769);
+        width: 70%;
+    }
+    
+    .img-link-2{
+        margin-right: 7rem;
+    }
+    
+    .section-3{
+        display: block;
+    }
+
+    .section-3 div{
+        margin-top: 0.5rem;
+    }
+    
+    .section-3 button{
+        background-image: linear-gradient(to right, rgb(84, 46, 84) 5%, rgb(34, 34, 154) 40%);
+        color: #ffffff;
+        width: 70%;
+        padding: 1rem 2rem;
+        border-radius: 3rem;
+        box-shadow: 0 4px 10px rgb(0,0,0,1);
+        cursor: pointer;
+        border: none;
+    }
+    
+    .section-3 button span{
+        display: inline-flex;
+        align-items: center;
+        gap: 0.8rem;
+    }
+    
+    .section-3 button span a{
+        color: #fff;
+    }
+    
+    .section-3-tele{
+        display:  none;
+        align-items: center;
+        gap: 0.5rem;
+    }
+/*
+    .section-3-tele i{
+        background-color: rgba(255, 255, 255, 0.712);
+        color: #320ac1;
+        padding: 1rem;
+        font-size: 1rem;
+        border-radius: 50%;
+    }
+    
+    .tele-2{
+        margin-top: -0.5rem;
+    }
+    
+    .section-3-tele sub{
+        color: #a1a1a1;
+        font-size: 15px;
+    }
+    
+    .section-3-tele p{
+        color: #fff;
+        font-size: 18px;
+        font-weight: 600;
+    } */
+}

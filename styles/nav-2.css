@@ -1,0 +1,247 @@
+.nav-2 {
+    max-width: 100%;
+    padding: 0.3rem;
+    align-items: center;
+    display: flex;
+    background-color: rgb(192, 190, 190);
+}
+
+.nav-2-img {
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+
+.nav-2 .nav-2-img img {
+    background-color: rgb(13, 13, 94);
+    width: 10rem;
+    height: 5rem;
+    border-radius: 10rem;
+}
+
+.a-tag {
+    background-color: rgba(0, 255, 255, 0);
+    max-width: 100%;
+    padding: 0.5rem;
+    /* margin-left: -2rem; */
+    /* margin-top: 1.3rem; */
+}
+
+.a-tag ul {
+    background-color: #14064200;
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+
+.a-tag span {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    /* padding-bottom: 1.4rem; */
+    color: rgb(255, 255, 255);
+}
+
+.a-tag span:hover {
+    transition: 120ms all ease-in-out;
+    /* border-bottom: 3.5px solid blue; */
+    background-color: #140642;
+    color: rgb(201, 201, 201);
+    border-radius: 1rem;
+    padding: 0rem 0.5rem;
+}
+
+.a-tag span i {
+    color: #fff;
+    font-size: 8px;
+}
+
+
+/* This is a Div in a Div */
+
+
+.a-tag-label {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    height: 7rem;
+}
+
+.menu-bar i{
+    display: none;
+}
+
+.a-tag-label span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #fff;
+    border-left: 0.2px solid rgb(255, 255, 255);
+    padding-left: 0.7rem;
+    padding-right: 0.2rem;
+}
+/* java script on search */
+/* .a-tag-label .search{
+   position: absolute;
+   background-color:  #ffffff;
+   padding: 0.5rem;
+   width: 80%;
+   height: 20%;
+   border: none;
+   
+   top: 10rem;
+   border-radius: 5rem;
+   left: 10rem;
+   z-index: 200;
+}
+
+
+
+.a-tag-label .search input{
+    padding: 1rem;
+    font-size: 1.5rem;
+    border: none;
+    width: 90%;
+    border-bottom:1px solid black;
+    outline: none;
+    background-color: #ffffff;
+}
+
+
+.a-tag-label .search i{
+    padding-left: 1.5rem;
+    font-size: 2rem;
+} */
+
+
+/* out of java Script on search  */
+
+.a-tag-label span select {
+    padding: 0.2rem;
+    width: 5rem;
+    border: 0;
+    outline: 0;
+}
+
+#select-opt option{
+    background-color: rgb(219, 219, 219);
+    color: #00000085;
+    border: none;
+}
+
+.quote a{
+    color: #fff;
+}
+
+
+.quote{
+    background-color: blue;
+    color: #fff;
+    padding: 0.5rem;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 5rem;
+    margin-left: 0.3rem;
+    border: none;
+    border-radius: 5rem;
+    box-shadow: 2px 7px 5px rgba(69, 69, 177, 0.192);
+    cursor: pointer;
+}
+#quote-icon{
+    margin-left: 0.5rem;
+}
+
+
+.a-tag-label span:first-child {
+    color: #fff;
+    gap: 2rem;
+    padding-left: 0;
+    border: 0;
+}
+
+
+.a-tag-label span:last-child {
+    border: 0;
+}
+
+.phone{
+    display: none;
+}
+
+@media screen and (max-width:750px) {
+    .a-tag{
+        display: none;
+    }
+
+    .a-tag-label{
+        display: none;
+    }
+
+    .phone{
+        width: 100%;
+        background-color: rgba(250, 235, 215, 0);
+        display: flex;
+        padding: 1.5rem;
+        padding-right: 0.5rem;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .phone span{
+        display: inline-flex;
+        gap: 0.5rem;
+    }
+
+    .phone span select{
+        /* background-color: #140642; */
+        color: #000000;
+        border:2px solid rgb(0, 0, 0);
+        outline: none;
+        padding: 0.1rem;
+        width: 100%;
+    }
+
+    .phone span select:active{
+        color: #000000;
+        border:2px solid rgb(25, 0, 255);
+    }
+
+    .menu-bar{
+        background-color: rgba(255, 0, 0, 0);
+    }
+
+    .close-bar i{
+        display: none;
+    }
+
+    .menu-bar i{
+        font-size: 25px;
+        display: block;
+    }
+
+    .nav-2 {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .nav-2-img {
+        margin-right: 1rem;
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+    }
+
+    .nav-2 .nav-2-img img {
+        background-color: rgb(13, 13, 94);
+        width: 5rem;
+        height: 3rem;
+        border-radius: 10rem;
+    }
+
+
+}
